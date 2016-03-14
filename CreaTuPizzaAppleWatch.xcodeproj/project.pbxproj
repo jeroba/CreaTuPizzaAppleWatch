@@ -19,6 +19,13 @@
 		EA35CAC61C914CFD00524CF5 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35CAC51C914CFD00524CF5 /* InterfaceController.swift */; };
 		EA35CAC81C914CFD00524CF5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35CAC71C914CFD00524CF5 /* ExtensionDelegate.swift */; };
 		EA35CACA1C914CFD00524CF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA35CAC91C914CFD00524CF5 /* Assets.xcassets */; };
+		EA35CADA1C91518700524CF5 /* TamanioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35CAD91C91518700524CF5 /* TamanioController.swift */; };
+		EA35CADE1C9152A000524CF5 /* ConfiguracionPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35CADD1C9152A000524CF5 /* ConfiguracionPizza.swift */; };
+		EA35CAE01C9157F000524CF5 /* MasaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35CADF1C9157F000524CF5 /* MasaController.swift */; };
+		EAA8044E1C9291CA0006AB19 /* QuesoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA8044D1C9291CA0006AB19 /* QuesoController.swift */; };
+		EAA804501C9291E40006AB19 /* IngredientesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA8044F1C9291E40006AB19 /* IngredientesController.swift */; };
+		EAA804521C9291FA0006AB19 /* ConfirmacionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA804511C9291FA0006AB19 /* ConfirmacionController.swift */; };
+		EAA804541C9292090006AB19 /* ProcesadaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA804531C9292090006AB19 /* ProcesadaController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +87,13 @@
 		EA35CAC71C914CFD00524CF5 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		EA35CAC91C914CFD00524CF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA35CACB1C914CFD00524CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA35CAD91C91518700524CF5 /* TamanioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TamanioController.swift; sourceTree = "<group>"; };
+		EA35CADD1C9152A000524CF5 /* ConfiguracionPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfiguracionPizza.swift; sourceTree = "<group>"; };
+		EA35CADF1C9157F000524CF5 /* MasaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasaController.swift; sourceTree = "<group>"; };
+		EAA8044D1C9291CA0006AB19 /* QuesoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuesoController.swift; sourceTree = "<group>"; };
+		EAA8044F1C9291E40006AB19 /* IngredientesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientesController.swift; sourceTree = "<group>"; };
+		EAA804511C9291FA0006AB19 /* ConfirmacionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmacionController.swift; sourceTree = "<group>"; };
+		EAA804531C9292090006AB19 /* ProcesadaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcesadaController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +164,13 @@
 				EA35CAC71C914CFD00524CF5 /* ExtensionDelegate.swift */,
 				EA35CAC91C914CFD00524CF5 /* Assets.xcassets */,
 				EA35CACB1C914CFD00524CF5 /* Info.plist */,
+				EA35CAD91C91518700524CF5 /* TamanioController.swift */,
+				EA35CADD1C9152A000524CF5 /* ConfiguracionPizza.swift */,
+				EA35CADF1C9157F000524CF5 /* MasaController.swift */,
+				EAA8044D1C9291CA0006AB19 /* QuesoController.swift */,
+				EAA8044F1C9291E40006AB19 /* IngredientesController.swift */,
+				EAA804511C9291FA0006AB19 /* ConfirmacionController.swift */,
+				EAA804531C9292090006AB19 /* ProcesadaController.swift */,
 			);
 			path = "CreaTuPizzaAppleWatch WatchKit Extension";
 			sourceTree = "<group>";
@@ -298,8 +319,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA35CADE1C9152A000524CF5 /* ConfiguracionPizza.swift in Sources */,
+				EAA804501C9291E40006AB19 /* IngredientesController.swift in Sources */,
 				EA35CAC81C914CFD00524CF5 /* ExtensionDelegate.swift in Sources */,
+				EAA804521C9291FA0006AB19 /* ConfirmacionController.swift in Sources */,
+				EA35CADA1C91518700524CF5 /* TamanioController.swift in Sources */,
+				EAA8044E1C9291CA0006AB19 /* QuesoController.swift in Sources */,
 				EA35CAC61C914CFD00524CF5 /* InterfaceController.swift in Sources */,
+				EA35CAE01C9157F000524CF5 /* MasaController.swift in Sources */,
+				EAA804541C9292090006AB19 /* ProcesadaController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +556,7 @@
 				EA35CAD01C914CFD00524CF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA35CAD21C914CFD00524CF5 /* Build configuration list for PBXNativeTarget "CreaTuPizzaAppleWatch WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +565,7 @@
 				EA35CAD41C914CFD00524CF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA35CAD61C914CFD00524CF5 /* Build configuration list for PBXNativeTarget "CreaTuPizzaAppleWatch" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +574,7 @@
 				EA35CAD81C914CFD00524CF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
